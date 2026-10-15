@@ -17,7 +17,7 @@ class ApiService {
   // ════════════════════════════════════════════════════════════════
   static const String baseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue: 'https://owner-panel-backend.onrender.com/api',
+    defaultValue: 'https://lexnland-back.onrender.com/api',
   );
   
   /// Backend origin without the trailing "/api". Used to turn relative media
